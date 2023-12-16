@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PUBG UC Do'kon</title>
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PUBG UC Do'kon</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Bosh sahifa</a></li>
+                    <li><a href="#products">Mahsulotlar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>PUBG UC Do'kon</h2>
+            <p>Eng yaxshi narxlarda PUBG UC sotib oling va o'yiningizni rivojlang!</p>
+            <a href="#products" class="btn">Mahsulotlarni ko'rish</a>
+        </div>
+    </section>
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Mahsulotlar</h2>
+            <div class="product">
+                <img src="uc.png" alt="PUBG UC Paketi">
+                <h3>PUBG UC 100</h3>
+                <p>Narxi: $10.99</p>
+                <button onclick="buyUC(100)">Sotib olish</button>
+            </div>
+            <div class="product">
+                <img src="uc.png" alt="PUBG UC Paketi">
+                <h3>PUBG UC 500</h3>
+                <p>Narxi: $49.99</p>
+                <button onclick="buyUC(500)">Sotib olish</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Aloqa</h2>
+            <p>Biz bilan bog'lanish uchun quyidagi formani to'ldiring:</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Ismingiz:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email manzilingiz:</label>
+                <input type="email" id="email" name="email" required>
+
+               
+
+                <button  class="btn">Jo'natish</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 PUBG UC Do'kon. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+    <script src="script."></script>
+</body>
+</html>
